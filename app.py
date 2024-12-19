@@ -21,7 +21,7 @@ def chatbot_response(user_input):
     load_dotenv()
     os.environ["LANGCHAIN_API_KEY"] = os.getenv("LANGCHAIN_API_KEY")
     os.environ["LANGCHAIN_TRACING_V2"] = "true"
-    os.environ["LANGCHAIN_PROJECT"] = os.getenv("LANGCHAIN_PROJECT")
+    os.environ["LANGCHAIN_PROJECT"]="Insurify"
 
     # Define the prompt
     prompt = ChatPromptTemplate.from_messages(
