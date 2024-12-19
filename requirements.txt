@@ -1,0 +1,14 @@
+ipykernel
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+imblearn
+python-dotenv
+Flask
+langchain
+langchain_ollama
+langchain-core
+langchain_community
+gunicorn==23.0.0
